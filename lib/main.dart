@@ -64,7 +64,7 @@ class MyApp extends StatelessWidget {
                        ),
 
                        title: Text(
-                       " +234 8097700177",
+                       " +234 8000000100",
                          style: TextStyle(
                            fontSize: 15
                          ),
