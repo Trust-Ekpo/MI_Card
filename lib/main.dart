@@ -17,15 +17,11 @@ class MyApp extends StatelessWidget {
          //container is just like a div but can only have one(1) child
          child: Center(
            child: Column(
-             //to put the contents of the column in the center
              mainAxisAlignment: MainAxisAlignment.center,
              children: <Widget>[
-               //it a widget for circle avater where you can place whatever you want i think
                CircleAvatar(
                  radius: 50 ,
                  backgroundImage: AssetImage("images/myself2.jpg"),
-
-
                ),
                Text(
                  "Ekpo Trust",
@@ -38,7 +34,7 @@ class MyApp extends StatelessWidget {
                ),
                ),
                Text(
-                 "Web and mobile Developer",
+                 "Web & Mobile Developer",
                  style: TextStyle(
                    fontFamily: 'Source Sans Pro',
                    fontSize: 20,
@@ -53,7 +49,7 @@ class MyApp extends StatelessWidget {
                    color: Colors.white,
                  ),
                ),
-               //card is used to make a card and it has
+
                Card (
                  color: Colors.white,
                   margin: EdgeInsets.symmetric(
@@ -100,9 +96,6 @@ class MyApp extends StatelessWidget {
 
                    )
                ),
-
-
-
              ],
            ),
          )
